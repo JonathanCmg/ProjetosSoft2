@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { PaperProvider } from 'react-native-paper';
-import Home from './src/pages/Home';
+import Usuarios from './src/pages/Usuarios';
 
 export default function App() {
   return (
     <PaperProvider>
-      <Home />
+      <Usuarios />
     </PaperProvider>
   );
 }
