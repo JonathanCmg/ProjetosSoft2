@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { SafeAreaView, FlatList, StyleSheet } from 'react-native';
+import { FlatList, StyleSheet } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 import TituloUsuarios from '../components/TituloUsuarios';
 import Carregando from '../components/Carregando';

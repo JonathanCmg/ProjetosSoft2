@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { SafeAreaView, FlatList, StyleSheet, RefreshControl } from 'react-native';
+import { FlatList, StyleSheet, RefreshControl } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { Card, Text, ActivityIndicator } from 'react-native-paper';
 
 export default function Home() {
